@@ -1,9 +1,5 @@
 # ZFI_PO_TRACKER — SAP Fiori Purchase Order Delay Monitor
 
-**Student:** Samriddho Kar | **Roll No:** 23053296 | **Batch:** B.Tech 2023–2027  
-**Module:** SAP Fiori / SAP BTP Workzone / SAPUI5  
-**Institution:** KIIT University
-
 ---
 
 ## Project Overview
@@ -119,7 +115,4 @@ pytest test_api.py -v
 
 ---
 
-## Author
 
-**Samriddho Kar** — B.Tech 2023–2027, KIIT University  
-Roll No: 23053296
