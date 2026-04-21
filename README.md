@@ -1,7 +1,5 @@
 # ZFI_PO_TRACKER — SAP Fiori Purchase Order Delay Monitor
 
----
-
 ## Project Overview
 
 `ZFI_PO_TRACKER` is a production-grade SAP Fiori application built for **KIIT Manufacturing Ltd. (KML)** — a fictitious discrete manufacturing enterprise with three plants in India (Bhubaneswar, Pune, Chennai).
@@ -112,7 +110,5 @@ pytest test_api.py -v
 | Purchasing Org | KML_PO |
 | Sales Org | KSO1 |
 | Controlling Area | KML1 |
-
----
 
 
