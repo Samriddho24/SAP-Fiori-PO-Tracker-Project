@@ -1,0 +1,171 @@
+{
+  "purchase_orders": [
+    {
+      "po_number": "4500021873",
+      "po_date": "2026-03-12",
+      "vendor_id": "V00421",
+      "vendor_name": "Tech Auto Pvt Ltd",
+      "plant": "KP01",
+      "purchasing_org": "KML_PO",
+      "purchasing_group": "KG1",
+      "currency": "INR",
+      "net_value": 245000.00,
+      "delivery_date": "2026-04-15",
+      "payment_terms": "Net 30",
+      "items": [
+        { "item_no": "0010", "material": "MAT-1021", "description": "Industrial Bearing 6205", "quantity": 100, "unit": "EA", "unit_price": 1450.00 },
+        { "item_no": "0020", "material": "MAT-1022", "description": "Roller Shaft 12mm", "quantity": 50, "unit": "EA", "unit_price": 2100.00 }
+      ]
+    },
+    {
+      "po_number": "4500021874",
+      "po_date": "2026-02-01",
+      "vendor_id": "V00312",
+      "vendor_name": "Bharat Mech Ltd",
+      "plant": "KP02",
+      "purchasing_org": "KML_PO",
+      "purchasing_group": "KG1",
+      "currency": "INR",
+      "net_value": 87500.00,
+      "delivery_date": "2026-03-10",
+      "payment_terms": "Net 45",
+      "items": [
+        { "item_no": "0010", "material": "MAT-2031", "description": "Hex Bolt M10x40 Box", "quantity": 500, "unit": "BX", "unit_price": 175.00 }
+      ]
+    },
+    {
+      "po_number": "4500021875",
+      "po_date": "2026-01-15",
+      "vendor_id": "V00189",
+      "vendor_name": "Global Parts Co. Ltd",
+      "plant": "KP01",
+      "purchasing_org": "KML_PO",
+      "purchasing_group": "KG1",
+      "currency": "INR",
+      "net_value": 312800.00,
+      "delivery_date": "2026-02-28",
+      "payment_terms": "Net 30",
+      "items": [
+        { "item_no": "0010", "material": "MAT-5521", "description": "Industrial Bearing 6205", "quantity": 50, "unit": "EA", "unit_price": 1750.00 },
+        { "item_no": "0020", "material": "MAT-5522", "description": "Roller Shaft Assy 12mm", "quantity": 30, "unit": "EA", "unit_price": 3510.00 },
+        { "item_no": "0030", "material": "MAT-5523", "description": "Seal Ring Kit A4", "quantity": 200, "unit": "EA", "unit_price": 310.00 },
+        { "item_no": "0040", "material": "MAT-5524", "description": "Hex Bolt M10x40 Box", "quantity": 100, "unit": "BX", "unit_price": 580.00 }
+      ]
+    },
+    {
+      "po_number": "4500021876",
+      "po_date": "2025-12-20",
+      "vendor_id": "V00501",
+      "vendor_name": "Indian Steel Ltd",
+      "plant": "KP03",
+      "purchasing_org": "KML_PO",
+      "purchasing_group": "KG2",
+      "currency": "INR",
+      "net_value": 105200.00,
+      "delivery_date": "2026-01-15",
+      "payment_terms": "Net 60",
+      "items": [
+        { "item_no": "0010", "material": "MAT-3301", "description": "MS Flat Bar 50x6mm", "quantity": 200, "unit": "MTR", "unit_price": 526.00 }
+      ]
+    },
+    {
+      "po_number": "4500021877",
+      "po_date": "2026-03-28",
+      "vendor_id": "V00421",
+      "vendor_name": "Rapid Supply Co.",
+      "plant": "KP02",
+      "purchasing_org": "KML_PO",
+      "purchasing_group": "KG3",
+      "currency": "INR",
+      "net_value": 64300.00,
+      "delivery_date": "2026-04-25",
+      "payment_terms": "Net 30",
+      "items": [
+        { "item_no": "0010", "material": "MAT-4412", "description": "Safety Gloves Type B", "quantity": 100, "unit": "PR", "unit_price": 643.00 }
+      ]
+    },
+    {
+      "po_number": "4500021878",
+      "po_date": "2026-03-05",
+      "vendor_id": "V00622",
+      "vendor_name": "Eastern Traders",
+      "plant": "KP01",
+      "purchasing_org": "KML_PO",
+      "purchasing_group": "KG1",
+      "currency": "INR",
+      "net_value": 198750.00,
+      "delivery_date": "2026-04-10",
+      "payment_terms": "Net 30",
+      "items": [
+        { "item_no": "0010", "material": "MAT-6611", "description": "Precision Gear Set 48T", "quantity": 75, "unit": "EA", "unit_price": 2650.00 }
+      ]
+    }
+  ],
+
+  "vendors": [
+    { "vendor_id": "V00421", "name": "Tech Auto Pvt Ltd",     "city": "Mumbai",    "payment_terms": "Net 30", "rating": "A" },
+    { "vendor_id": "V00312", "name": "Bharat Mech Ltd",       "city": "Pune",      "payment_terms": "Net 45", "rating": "B+" },
+    { "vendor_id": "V00189", "name": "Global Parts Co. Ltd",  "city": "Chennai",   "payment_terms": "Net 30", "rating": "B" },
+    { "vendor_id": "V00501", "name": "Indian Steel Ltd",      "city": "Kolkata",   "payment_terms": "Net 60", "rating": "A-" },
+    { "vendor_id": "V00622", "name": "Eastern Traders",       "city": "Bhubaneswar","payment_terms": "Net 30","rating": "B+" }
+  ],
+
+  "plants": [
+    { "plant_code": "KP01", "name": "KML Bhubaneswar",  "city": "Bhubaneswar", "employees": 800, "type": "Main Production" },
+    { "plant_code": "KP02", "name": "KML Pune",         "city": "Pune",        "employees": 600, "type": "Assembly" },
+    { "plant_code": "KP03", "name": "KML Chennai",      "city": "Chennai",     "employees": 400, "type": "Export Manufacturing" }
+  ],
+
+  "sales_orders": [
+    {
+      "so_number": "1000012301",
+      "so_date": "2026-04-01",
+      "customer_id": "C00112",
+      "customer_name": "Apex Robotics Ltd",
+      "sales_org": "KSO1",
+      "distribution_channel": "10",
+      "division": "01",
+      "currency": "INR",
+      "net_value": 520000.00,
+      "requested_delivery": "2026-04-30",
+      "items": [
+        { "item_no": "10", "material": "FG-1001", "description": "Automation Control Unit ACU-48", "quantity": 20, "unit": "EA", "unit_price": 26000.00 }
+      ]
+    },
+    {
+      "so_number": "1000012302",
+      "so_date": "2026-04-05",
+      "customer_id": "C00234",
+      "customer_name": "NextGen Systems Pvt Ltd",
+      "sales_org": "KSO1",
+      "distribution_channel": "20",
+      "division": "02",
+      "currency": "INR",
+      "net_value": 187500.00,
+      "requested_delivery": "2026-04-25",
+      "items": [
+        { "item_no": "10", "material": "SP-2201", "description": "Spare Motor Assembly M12", "quantity": 25, "unit": "EA", "unit_price": 7500.00 }
+      ]
+    }
+  ],
+
+  "o2c_steps": [
+    { "step": 1, "phase": "Sales Inquiry",      "tcode": "VA11", "role": "Sales Rep" },
+    { "step": 2, "phase": "Quotation",          "tcode": "VA21", "role": "Sales Rep" },
+    { "step": 3, "phase": "Sales Order",        "tcode": "VA01", "role": "Sales Rep" },
+    { "step": 4, "phase": "Delivery Creation",  "tcode": "VL01N","role": "Warehouse" },
+    { "step": 5, "phase": "Goods Issue",        "tcode": "VL02N","role": "Warehouse" },
+    { "step": 6, "phase": "Billing",            "tcode": "VF01", "role": "Billing Clerk" },
+    { "step": 7, "phase": "Payment Receipt",    "tcode": "F-28", "role": "Accounts Receivable" }
+  ],
+
+  "p2p_steps": [
+    { "step": 1, "phase": "Purchase Requisition",  "tcode": "ME51N", "role": "Plant Planner" },
+    { "step": 2, "phase": "RFQ",                   "tcode": "ME41",  "role": "Buyer" },
+    { "step": 3, "phase": "Vendor Comparison",     "tcode": "ME49",  "role": "Buyer" },
+    { "step": 4, "phase": "Purchase Order",        "tcode": "ME21N", "role": "Buyer / Manager" },
+    { "step": 5, "phase": "Goods Receipt",         "tcode": "MIGO",  "role": "Warehouse" },
+    { "step": 6, "phase": "Invoice Verification",  "tcode": "MIRO",  "role": "Accounts Payable" },
+    { "step": 7, "phase": "Payment",               "tcode": "F110",  "role": "Treasury" }
+  ]
+}
